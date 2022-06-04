@@ -3,8 +3,11 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import ResponsiveAppBar from './ResponsiveAppBar.tsx'
 import ListItem from '@mui/material/ListItem';
-
-
+import Box from '@mui/material/Box';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import IconButton from '@mui/material/IconButton';
+import TelegramIcon from '@mui/icons-material/Telegram';
+import RedditIcon from '@mui/icons-material/Reddit';
 
 export default function Home() {
   return (
@@ -17,13 +20,19 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-          <span className={styles.ergonnationlogo}>
-            <Image src="/ergonation.svg" alt="Ergonation Logo" width={1000} height={500}/>
-          </span>
-        <h1 className={styles.title}>
-          Proof of <a href="https://nextjs.org">Human!</a>
-        </h1>
-
+        <div className={styles.ergonationlogo}>
+          <Image src="/ergonation.svg" alt="Ergonation Logo" width={1000} height={500}/>
+        </div>
+        <Box sx={{display:{ xs: 'none', md: 'flex' }}}>
+          <h1 className={styles.title}>
+            Proof of <a href="https://nextjs.org">Humanity</a>
+          </h1>
+        </Box>
+        <Box sx={{display:{ xs: 'flex', md: 'none' }}}>
+          <h3 className={styles.titleSmall}>
+            Proof of <a href="https://nextjs.org">Humanity</a>
+          </h3>
+        </Box>
         <p className={styles.description}>
           Get started by joining our next event{' '}
         </p>
@@ -63,17 +72,42 @@ export default function Home() {
       </main>
 
       <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
-          <code className={styles.code}>pages/index.js</code>
-        </a>
+       <IconButton
+              size="large"
+              aria-label="account of current user"
+              aria-controls="menu-appbar"
+              aria-haspopup="true"
+              color="inherit"
+            >
+          <TwitterIcon/>
+        </IconButton>
+         <IconButton
+              size="large"
+              aria-label="account of current user"
+              aria-controls="menu-appbar"
+              aria-haspopup="true"
+              color="inherit"
+            >
+          <TelegramIcon/>
+        </IconButton>
+        <IconButton
+              size="large"
+              aria-label="account of current user"
+              aria-controls="menu-appbar"
+              aria-haspopup="true"
+              color="inherit"
+            >
+            <RedditIcon/>
+          </IconButton>
+        <IconButton
+              size="large"
+              aria-label="account of current user"
+              aria-controls="menu-appbar"
+              aria-haspopup="true"
+              color="inherit"
+            >
+            <Image src="/Discord-Logo-Black.svg" alt="Discord Logo" width={24} height={24} />
+          </IconButton>
       </footer>
     </div>
   )
