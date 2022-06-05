@@ -53,7 +53,7 @@ export default function Home() {
           <h3>Verify ID </h3>
             <div className ={styles.listItems}>
               <ListItem sx={{ display: 'list-item' }}>
-                Join the first monthly ID verification event on 7.6.2022 at 20.00 UTC for instructions. The event itself will start 20.15 UTC, and end 20.30 UTC.
+                Join the first monthly ID verification event on June 7th 2022 at 20.00 UTC for instructions. The event itself will start 20.15 UTC, and end 20.30 UTC.
               </ListItem>
               <ListItem sx={{ display: 'list-item' }}>
                 Participants will play a short game. If successful, they will be able to verify the ID on-chain.
