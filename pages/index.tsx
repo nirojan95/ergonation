@@ -83,10 +83,10 @@ export default function Home() {
           <h3>Create ID</h3>
             <div className ={styles.listItems}>
               <ListItem sx={{ display: 'list-item' }}>
-                Create a new <a target="_blank" href="https://docs.ergoplatform.com/dev/wallet/"> Ergo wallet</a> address. This address is your anonymous ID. Do not reveal it to anyone.
+                Create a new <a href="https://docs.ergoplatform.com/dev/wallet/" target="_blank" rel="noopener noreferrer"> Ergo wallet</a> address. This address is your anonymous ID. Do not reveal it to anyone.
               </ListItem>
               <ListItem sx={{ display: 'list-item' }}>
-                Use <a target="_blank" href="https://github.com/ergoMixer/ergoMixBack/releases">ErgoMixer</a> to send a minimum of 1 ERG into it. The mixing process may take some time. Start it right away to be ready for the verification event.
+                Use <a href="https://github.com/ergoMixer/ergoMixBack/releases" target="_blank" rel="noopener noreferrer">ErgoMixer</a> to send a minimum of 1 ERG into it. The mixing process may take some time. Start it right away to be ready for the verification event.
               </ListItem>
               <ListItem sx={{ display: 'list-item' }}>
                 All funds going in and out of the ID address must go through the mixer to preserve anonymity.            
