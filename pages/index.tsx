@@ -72,7 +72,7 @@ export default function Home() {
         </Box>
         <Box sx={{display:{ xs: 'flex', md: 'none' }}}>
           <h3 className={styles.titleSmall}>
-            Proof of <a href="https://nextjs.org">Humanity</a>
+            Proof of <a>Humanity</a>
           </h3>
         </Box>
         <p className={styles.description}>
