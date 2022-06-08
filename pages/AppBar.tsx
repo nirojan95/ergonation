@@ -65,7 +65,7 @@ function AppBar({isHome}) {
 }
 
 AppBar.propTypes = {
-  isHome: PropTypes.objectOf(PropTypes.boolean).isRequired,
+  isHome: PropTypes.objectOf(PropTypes.any).isRequired,
 };
 
 export default AppBar;
