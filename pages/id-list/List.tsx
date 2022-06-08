@@ -260,7 +260,6 @@ export default function List() {
 
   const isSelected = (ID_address: string) => selected.indexOf(ID_address) !== -1;
 
-  console.log({rows});
   // Avoid a layout jump when reaching the last page with empty rows.
   const emptyRows =
     page > 0 ? Math.max(0, (1 + page) * rowsPerPage - rows.length) : 0;
@@ -289,13 +288,13 @@ export default function List() {
               {stableSort(rows, getComparator(order, orderBy))
                 .slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage)
                 .map((row, index) => {
-                  const isItemSelected = isSelected(row.ID_address);
+                  const isItemSelected = isSelected(row.ID_address as string);
                   const labelId = `enhanced-table-checkbox-${index}`;
 
                   return (
                     <TableRow
                       hover
-                      onClick={(event) => handleClick(event, row.ID_address)}
+                      onClick={(event) => handleClick(event, row.ID_address as string)}
                       role="checkbox"
                       aria-checked={isItemSelected}
                       tabIndex={-1}

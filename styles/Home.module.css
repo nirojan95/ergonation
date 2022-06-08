@@ -29,7 +29,7 @@
 }
 
 .ergonationlogoNav {
-      z-index: 20;
+    z-index: 20;
     filter: invert(25%) sepia(99%) saturate(1781%) hue-rotate(140deg) brightness(94%) contrast(102%);
 }
 
