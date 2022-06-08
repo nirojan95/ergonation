@@ -22,48 +22,6 @@ import FilterListIcon from '@mui/icons-material/FilterList';
 import { visuallyHidden } from '@mui/utils';
 import {default as rows} from './list1.json'
 
-// interface Data1 {
-//   ID_address: string;
-//   "Events Participated": number;
-//   anonymous: string;
-// }
-
-// function createData1(
-//   ID_address: string,
-//   "Events Participated": number,
-//   anonymous: string,
-// ): Data {
-//   return {
-//     ID_address,
-//     Events Participated,
-//     anonymous,
-//   };
-// }
-
-interface Data {
-  calories: number;
-  carbs: number;
-  fat: number;
-  name: string;
-  protein: number;
-}
-
-function createData(
-  name: string,
-  calories: number,
-  fat: number,
-  carbs: number,
-  protein: number,
-): Data {
-  return {
-    name,
-    calories,
-    fat,
-    carbs,
-    protein,
-  };
-}
-
 
 function descendingComparator<T>(a: T, b: T, orderBy: keyof T) {
   if (b[orderBy] < a[orderBy]) {
@@ -105,14 +63,14 @@ function stableSort<T>(array: readonly T[], comparator: (a: T, b: T) => number) 
 
 interface HeadCell {
   disablePadding: boolean;
-  id: keyof Data;
+  id: string;
   label: string;
   numeric: boolean;
 }
 
 const headCells: readonly HeadCell[] = [
   {
-    id: 'IDaddress',
+    id: 'ID_address',
     numeric: false,
     disablePadding: true,
     label: 'ID address',
