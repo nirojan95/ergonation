@@ -1,11 +1,9 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import Link from 'next/link'
 import styles from '../styles/Home.module.css'
-// import ResponsiveAppBar from './ResponsiveAppBar'
+import AppBar from './AppBar'
 import ListItem from '@mui/material/ListItem';
 import Box from '@mui/material/Box';
-import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import IconButton from '@mui/material/IconButton';
@@ -22,52 +20,13 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
+        <AppBar isHome = {true}/>
         <div className={styles.ergonationlogo}>
           <Image src="/ergonation.svg" className ={styles.filtergreen} alt="Ergonation Logo" width={1000} height={400}/>
         </div>
-        <Box sx={{flexGrow: 1 , display:'flex', borderBottom: '1px solid #eaeaea', width:'70%', justifyContent:'center'}}>
-          <Link href="/">
-            <Button
-                key="Documentation"
-                sx={{
-                  ":hover": {
-                    background:'none',
-                    color:'#018749'
-                  },
-                  my: 2,
-                  mx: 1, 
-                  color: 'Black', 
-                  display: 'block', 
-                  fontSize: '1rem',
-                }}
-                className="navbutton"
-              >
-                Docs
-            </Button>
-          </Link>
-          <Link href="/">
-            <Button
-                key="ΣID List"
-                sx={{
-                  ":hover": {
-                    background:'none',
-                    color:'#018749'
-                  },
-                  my: 2,
-                  mx: 1, 
-                  color: 'Black', 
-                  display: 'block', 
-                  fontSize: '1rem'
-                }}
-                className="navbutton"
-              >
-                ΣID List
-            </Button>
-          </Link>
-        </Box>
         <Box sx={{display:{ xs: 'none', md: 'flex' }}}>
           <h2 className={styles.title}>
-            Proof of <a href="https://nextjs.org">Humanity</a>
+            Proof of <a>Humanity</a>
           </h2>
         </Box>
         <Box sx={{display:{ xs: 'flex', md: 'none' }}}>
