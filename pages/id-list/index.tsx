@@ -29,7 +29,7 @@ export default function Home() {
             Unique <a>Identities</a>
           </h2>
         </Box>
-        <Box sx={{display:{ xs: 'flex', md: 'none' }, m:{xs:'10rem 0 1rem 0'}}}>
+        <Box sx={{display:{ xs: 'flex', md: 'none' }, m:{xs:'10rem 0 1rem 0', md:'none'}}}>
           <h3 className={styles.titleSmall}>
             Unique <a>Identities</a>
           </h3>
@@ -37,7 +37,7 @@ export default function Home() {
         <p className={styles.description}>
           Join Ergo Nation by participating in our next event{' '}
         </p>
-        <Box sx={{m:{xs:'1rem 0 10rem 0'}}} className={styles.downloadButton}>
+        <Box sx={{m:{xs:'1rem 0 10rem 0', md:'0 0 0 0'}}} className={styles.downloadButton}>
           <a href='/anonymous_list.csv' download>
             <Button
               key="Download"
