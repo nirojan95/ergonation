@@ -10,6 +10,8 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 import IconButton from '@mui/material/IconButton';
 import TelegramIcon from '@mui/icons-material/Telegram';
 import RedditIcon from '@mui/icons-material/Reddit';
+import Button from '@mui/material/Button';
+
 
 export default function Home() {
   return (
@@ -27,15 +29,37 @@ export default function Home() {
             Unique <a>Identities</a>
           </h2>
         </Box>
-        <Box sx={{display:{ xs: 'flex', md: 'none' }}}>
+        <Box sx={{display:{ xs: 'flex', md: 'none' }, m:{xs:'10rem 0 1rem 0'}}}>
           <h3 className={styles.titleSmall}>
-            Proof of <a>Humanity</a>
+            Unique <a>Identities</a>
           </h3>
         </Box>
         <p className={styles.description}>
           Join Ergo Nation by participating in our next event{' '}
         </p>
-        <Box> 
+        <Box sx={{m:{xs:'1rem 0 10rem 0'}}} className={styles.downloadButton}>
+          <a href='/anonymous_list.csv' download>
+            <Button
+              key="Download"
+              sx={{
+                ":hover": {
+                  background:'none',
+                  color:'#018749'
+                },
+                my: 2,
+                mx: 1, 
+                color: 'Black', 
+                display: 'block', 
+                fontSize: '1rem',
+                border: '1px solid'
+              }}
+              className="navbutton"
+            >
+              Click here to download (.csv)
+            </Button>
+          </a>
+        </Box>
+        <Box sx={{display:{ xs: 'none', md: 'flex' }}}> 
           <List/>
         </Box>
       </main>
