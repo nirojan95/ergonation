@@ -3,7 +3,7 @@
 }
 
 .main {
-  min-height: 80vh;
+  min-height: 50vh;
   padding: 1rem 0 3rem 0;
   flex: 1;
   display: flex;
@@ -149,4 +149,8 @@
     width: 100%;
     flex-direction: column;
   }
+}
+
+.downloadButton a {
+  text-decoration: none;
 }
