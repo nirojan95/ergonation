@@ -79,13 +79,7 @@ const headCells: readonly HeadCell[] = [
     numeric: true,
     disablePadding: false,
     label: 'Events Participated',
-  },
-  {
-    id: 'anonymous',
-    numeric: false,
-    disablePadding: false,
-    label: 'Anonymous',
-  },
+  }
 ];
 
 interface EnhancedTableProps {
@@ -319,7 +313,6 @@ export default function List() {
                         {row.ID_address}
                       </TableCell>
                       <TableCell align="right">{row.Events}</TableCell>
-                      <TableCell align="right">{row.anonymous}</TableCell>
                     </TableRow>
                   );
                 })}
