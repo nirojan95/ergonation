@@ -9,6 +9,7 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 import IconButton from '@mui/material/IconButton';
 import TelegramIcon from '@mui/icons-material/Telegram';
 import RedditIcon from '@mui/icons-material/Reddit';
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -39,22 +40,25 @@ export default function Home() {
         </p>
 
         <div className={styles.numberlist}>
+              <div className={styles.previousUserText}>
+                If you have successfully participated in a previous event, then use your existing <Link href="/id-list"> ΣID address</Link> and skip step 1.
+              </div>
           <h3>Create ID</h3>
             <div className ={styles.listItems}>
               <ListItem sx={{ display: 'list-item' }}>
-                Create a new <a href="https://docs.ergoplatform.com/dev/wallet/" target="_blank" rel="noopener noreferrer"> Ergo wallet</a> address. This address is your anonymous ID. Do not reveal it to anyone.
+                If this is your first event, create a new <a href="https://docs.ergoplatform.com/dev/wallet/" target="_blank" rel="noopener noreferrer"> Ergo wallet</a>. This wallet should only be used for ErgoNation and will contain your anonymous ΣID. Do not reveal it to anyone.
               </ListItem>
               <ListItem sx={{ display: 'list-item' }}>
                 Use <a href="https://github.com/ergoMixer/ergoMixBack/releases" target="_blank" rel="noopener noreferrer">ErgoMixer</a> to send a minimum of 1 ERG into it. The mixing process may take some time. Start it right away to be ready for the verification event.
               </ListItem>
               <ListItem sx={{ display: 'list-item' }}>
-                All funds going in and out of the ID address must go through the mixer to preserve anonymity.            
+                All funds going in and out of the ΣID address must go through the mixer to preserve anonymity.            
               </ListItem>
             </div>
           <h3>Verify ID </h3>
             <div className ={styles.listItems}>
               <ListItem sx={{ display: 'list-item' }}>
-                Join the first monthly ID verification event on June 7th 2022 at 20.00 UTC for instructions. The event itself will start 20.15 UTC, and end 20.30 UTC.
+                Join the next monthly ΣID verification event on July 11th 2022 at 13.00 UTC for instructions. The event itself will start 13.15 UTC, and end 13.30 UTC.
               </ListItem>
               <ListItem sx={{ display: 'list-item' }}>
                 Participants will play a short game. If successful, they will be able to verify the ID on-chain.
@@ -63,17 +67,17 @@ export default function Home() {
           <h3>Use ID </h3>
             <div className ={styles.listItems}>
               <ListItem sx={{ display: 'list-item' }}>
-                Ergo projects can engage the ID holders in governance, testing, whitelist, rewards, tasks, etc.
+                Ergo projects can engage the ΣID holders in governance, testing, whitelist, rewards, tasks, etc.
               </ListItem>
               <ListItem sx={{ display: 'list-item' }}>
-                The IDs will gather reputation through actions in the ecosystem. We encourage projects to engage those IDs that actively support decentralization, anonymity and the spirit of Ergo (see Ergo Manifesto).
+                The ΣIDs will gather reputation through actions in the ecosystem. We encourage projects to engage ΣIDs that actively support decentralization, anonymity and the spirit of Ergo. To learn more about Ergo&apos;s vision read the  <a href="https://ergoplatform.org/en/blog/2021-04-26-the-ergo-manifesto/" target="_blank" rel="noopener noreferrer"> Ergo Manifesto</a>.
               </ListItem>
             </div>
         </div>
       </main>
 
       <footer className={styles.footer}>
-       <IconButton
+{/*       <IconButton
               size="large"
               aria-label="account of current user"
               aria-controls="menu-appbar"
@@ -81,7 +85,7 @@ export default function Home() {
               color="inherit"
             >
           <TwitterIcon/>
-        </IconButton>
+        </IconButton>*/}
          <IconButton
               size="large"
               aria-label="account of current user"
@@ -89,9 +93,11 @@ export default function Home() {
               aria-haspopup="true"
               color="inherit"
             >
-          <TelegramIcon/>
+          <a href="https://t.me/+iwWTrzMcfq0zZDcy" target="_blank" rel="noopener noreferrer">
+            <TelegramIcon/>
+          </a>
         </IconButton>
-        <IconButton
+{/*        <IconButton
               size="large"
               aria-label="account of current user"
               aria-controls="menu-appbar"
@@ -99,7 +105,7 @@ export default function Home() {
               color="inherit"
             >
             <RedditIcon/>
-          </IconButton>
+          </IconButton>*/}
         <IconButton
               size="large"
               aria-label="account of current user"
@@ -107,8 +113,10 @@ export default function Home() {
               aria-haspopup="true"
               color="inherit"
             >
+          <a href="https://discord.gg/4XvxSCJN" target="_blank" rel="noopener noreferrer">
             <Image src="/Discord-Logo-Black.svg" alt="Discord Logo" width={24} height={24} />
-          </IconButton>
+          </a>
+        </IconButton>
       </footer>
     </div>
   )

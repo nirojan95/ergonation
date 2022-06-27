@@ -11,7 +11,7 @@ function AppBar({isHome}) {
     logo = <div className={styles.ergonationlogoNav}>
       <Link href="/">
         <a>
-          <img src="/ergonation.svg" alt="Ergonation Logo" width={100} height={50}/>   
+          <Image src="/ergonation.svg" alt="Ergonation Logo" width={100} height={50}/>   
         </a>
       </Link>
     </div>;
