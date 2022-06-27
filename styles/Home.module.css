@@ -22,6 +22,7 @@
 }
 
 .footer a {
+  color: black;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -141,6 +142,17 @@
 .listItems a:hover,
 .listItems a:focus,
 .listItems a:active {
+  text-decoration: underline;
+}
+
+.previousUserText a {
+  color: #018749;
+  text-decoration: none;
+}
+
+.previousUserText a:hover,
+.previousUserText a:focus,
+.previousUserText a:active {
   text-decoration: underline;
 }
 
