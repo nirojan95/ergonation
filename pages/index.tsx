@@ -70,7 +70,7 @@ export default function Home() {
                 Ergo projects can engage the ΣID holders in governance, testing, whitelist, rewards, tasks, etc.
               </ListItem>
               <ListItem sx={{ display: 'list-item' }}>
-                The ΣIDs will gather reputation through actions in the ecosystem. We encourage projects to engage ΣIDs that actively support decentralization, anonymity and the spirit of Ergo. To learn more about Ergo's vision read the  <a href="https://ergoplatform.org/en/blog/2021-04-26-the-ergo-manifesto/" target="_blank" rel="noopener noreferrer"> Ergo Manifesto</a>.
+                The ΣIDs will gather reputation through actions in the ecosystem. We encourage projects to engage ΣIDs that actively support decentralization, anonymity and the spirit of Ergo. To learn more about Ergo&apos;s vision read the  <a href="https://ergoplatform.org/en/blog/2021-04-26-the-ergo-manifesto/" target="_blank" rel="noopener noreferrer"> Ergo Manifesto</a>.
               </ListItem>
             </div>
         </div>
