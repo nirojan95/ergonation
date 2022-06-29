@@ -2,14 +2,10 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../../styles/Home.module.css'
 import AppBar from '../AppBar'
+import Footer from '../Footer'
 import ListItem from '@mui/material/ListItem';
 import Box from '@mui/material/Box';
 import List from './List'
-import Typography from '@mui/material/Typography';
-import TwitterIcon from '@mui/icons-material/Twitter';
-import IconButton from '@mui/material/IconButton';
-import TelegramIcon from '@mui/icons-material/Telegram';
-import RedditIcon from '@mui/icons-material/Reddit';
 import Button from '@mui/material/Button';
 
 
@@ -63,45 +59,7 @@ export default function Home() {
           <List/>
         </Box>
       </main>
-
-      <footer className={styles.footer}>
-       <IconButton
-              size="large"
-              aria-label="account of current user"
-              aria-controls="menu-appbar"
-              aria-haspopup="true"
-              color="inherit"
-            >
-          <TwitterIcon/>
-        </IconButton>
-         <IconButton
-              size="large"
-              aria-label="account of current user"
-              aria-controls="menu-appbar"
-              aria-haspopup="true"
-              color="inherit"
-            >
-          <TelegramIcon/>
-        </IconButton>
-        <IconButton
-              size="large"
-              aria-label="account of current user"
-              aria-controls="menu-appbar"
-              aria-haspopup="true"
-              color="inherit"
-            >
-            <RedditIcon/>
-          </IconButton>
-        <IconButton
-              size="large"
-              aria-label="account of current user"
-              aria-controls="menu-appbar"
-              aria-haspopup="true"
-              color="inherit"
-            >
-            <Image src="/Discord-Logo-Black.svg" alt="Discord Logo" width={24} height={24} />
-          </IconButton>
-      </footer>
+      <Footer/>
     </div>
   )
 }
