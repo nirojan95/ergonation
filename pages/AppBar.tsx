@@ -21,7 +21,7 @@ function AppBar({isHome}) {
     <Box sx={{flexGrow: 0 , display:'flex', width:'100%', position: 'relative', alignItems:'center', height:'4rem'}}>
         {logo}
       <Box sx={{flexGrow: 1 , display:'flex', borderBottom: '1px solid #eaeaea', width:'100%', justifyContent:{xs:'right', md:'center'}, position: 'absolute'}}>
-        <Link href="/">
+        <Link href="/docs">
           <Button
               key="Documentation"
               sx={{
