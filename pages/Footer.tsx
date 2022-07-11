@@ -45,7 +45,7 @@ export default function Footer() {
 			      aria-haspopup="true"
 			      color="inherit"
 			    >
-			  <a href="https://discord.gg/4XvxSCJN" target="_blank" rel="noopener noreferrer">
+			  <a href="https://discord.gg/DNqyq6C3rH" target="_blank" rel="noopener noreferrer">
 			    <Image src="/Discord-Logo-Black.svg" alt="Discord Logo" width={24} height={24} />
 			  </a>
 			</IconButton>
