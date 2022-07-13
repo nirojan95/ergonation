@@ -55,7 +55,7 @@ export default function Home() {
             </Button>
           </a>
         </Box>
-        <Box sx={{display:{ xs: 'none', md: 'flex' }}}> 
+        <Box sx={{display:{ xs: 'none', md: 'flex' }, minWidth: 750}}> 
           <List/>
         </Box>
       </main>
