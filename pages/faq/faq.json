@@ -1,0 +1,42 @@
+[
+  {
+    "questions": "Wen token?",
+    "answers": "There will be no token. ErgoNation is a place where people are encouraged to contribute out of ideological passion for decentralization. Together with privacy this enables different choices and governance compared to profit oriented models."
+  },
+  {
+    "questions": "Why no team?",
+    "answers": "A permanent team is a single point of failure. A truly decentralized system must be resilient. Regular people can contribute by taking part in community groups."
+  },
+  {
+    "questions": "Why is [insert problem] not working?",
+    "answers": "Having no team means that building is chaotic and inefficient. People contribute at their own pace and may not solve the most pressing issues at hand. Therefore, everything will be less polished than commercial projects. That being said, if you have a problem or complaint, you are welcome to bring it up in the community chats. Do not make demands, be constructive, make a proposal, or contribute to solve the problem. That means asking how you can help instead of how others can help you."
+  },
+  {
+    "questions": "Can I use the same address for multiple verification events?",
+    "answers": "Yes, you should only use one ΣID address. Participating in multiple events with the same address increases the reputation of the address."
+  },
+  {
+    "questions": "What happens if I miss a Verification event?",
+    "answers": "Nothing happens, but the ΣID address list will show that you participated in one less event. Higher numbers of successful events increase the confidence that an ΣID holder is a unique active human. Depending on a use-case, projects might target all ΣID holders or some specific subset."
+  },
+  {
+    "questions": "Who are the people that created ErgoNation? Who are the people who are running the verification events?",
+    "answers": "ErgoNation was first proposed as an idea on the Ergoforum. An anonymous team took the idea into Ergohack, and created the practical framework and first verification event as a result. Currently there is no permanent team. The verification events rotate between voluntary community members, or ecosystem projects that want to help ErgoNation."
+  },
+  {
+    "questions": "Why shouldn?t I tell people that I have a ΣID - if I am not saying what is my address how can that hurt me?",
+    "answers": "If people know that you have an ΣID, then they can coerce, bribe or regulate you. If the ErgoNation list is used for decentralized governance in a large project, then those votes may be worth a lot of money for stakeholders. Not knowing who the ΣID holders are protects them from harm, and it protects the integrity of the governance."
+  },
+  {
+    "questions": "I have an idea for an activity/game for the Verification event; who should I talk with about it? How do I know that I am talking with the right person if all of us are anonymous?",
+    "answers": "There is no central authorship. Proposals are discussed and voted on in an open community. Verification events are currently organized by volunteer groups. In the future, we hope to have more volunteers, who would be voted on-chain to organize events."
+  },
+  {
+    "questions": "I have a project for which I would like to use ΣID holders as voters/decision makers. How do I contact them? How do I make sure the people I contact have any knowledge of or interest in the project?",
+    "answers": "There is no central authorship. Join the community groups and find out if your idea garners interest. The ErgoNation community is formed around ideals of non-compromising decentralization and privacy. If your project supports that, or wants to go more into that direction, then the chances are that people will have interest. Over time, the reputation of active ΣID holders will also show proof of oneness and personhood."
+  },
+  {
+    "questions": "I accidentally connected my EN wallet to a dex and sent less than an erg out before I realized its my EN wallet; what should I do? Have I breached my anonymity?",
+    "answers": "Maintaining anonymity is your own responsibility. If you think your ΣID is compromised and can be linked back to you, then you are at risk of attack by malicious actors. We try to provide guidelines on best practices to maintain privacy, and hope that the community helps each other in that regard. There will be many cases where people fail to keep their anonymity. It is better to adopt a mindset that it can happen, and it is totally ok to just start again."
+  }
+]

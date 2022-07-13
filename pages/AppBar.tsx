@@ -30,7 +30,7 @@ function AppBar({isHome}) {
                   color:'#018749'
                 },
                 my: 2,
-                mx: 1, 
+                mx: {xs:0, md:2}, 
                 color: 'Black', 
                 display: 'block', 
                 fontSize: '1rem',
@@ -49,17 +49,17 @@ function AppBar({isHome}) {
                   color:'#018749'
                 },
                 my: 2,
-                mx: 1, 
+                mx: {xs:0, md:2}, 
                 color: 'Black', 
                 display: 'block', 
                 fontSize: '1rem'
               }}
               className="navbutton"
             >
-              ΣID List
+              ΣIDs
           </Button>
         </Link>
-{/*        <Link href="/faq">
+        <Link href="/faq">
           <Button
               key="FAQ"
               sx={{
@@ -68,7 +68,7 @@ function AppBar({isHome}) {
                   color:'#018749'
                 },
                 my: 2,
-                mx: 1, 
+                mx: {xs:0, md:2}, 
                 color: 'Black', 
                 display: 'block', 
                 fontSize: '1rem'
@@ -77,7 +77,7 @@ function AppBar({isHome}) {
             >
               FAQ
           </Button>
-        </Link>*/}
+        </Link>
       </Box>
    </Box>
   );
