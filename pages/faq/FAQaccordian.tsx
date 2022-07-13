@@ -57,7 +57,7 @@ export default function FAQaccordion() {
 
     const completeFAQ = faqs.map((faq, index) => {
       return(
-        <Accordion sx={{backgroundColor:'white'}} expanded={expanded === 'panel' + index + 1} onChange={handleChange('panel' + index + 1)}>
+        <Accordion key={index} sx={{backgroundColor:'white'}} expanded={expanded === 'panel' + index + 1} onChange={handleChange('panel' + index + 1)}>
           <AccordionSummary sx={{ my: 1 }} aria-controls="panel1d-content" id="panel1d-header">
             <Typography>{faq.questions}</Typography>
           </AccordionSummary>
