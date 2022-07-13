@@ -59,6 +59,25 @@ function AppBar({isHome}) {
               ΣID List
           </Button>
         </Link>
+{/*        <Link href="/faq">
+          <Button
+              key="FAQ"
+              sx={{
+                ":hover": {
+                  background:'none',
+                  color:'#018749'
+                },
+                my: 2,
+                mx: 1, 
+                color: 'Black', 
+                display: 'block', 
+                fontSize: '1rem'
+              }}
+              className="navbutton"
+            >
+              FAQ
+          </Button>
+        </Link>*/}
       </Box>
    </Box>
   );
