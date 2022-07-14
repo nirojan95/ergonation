@@ -20,8 +20,8 @@ function AppBar({isHome}) {
   return (
     <Box sx={{flexGrow: 0 , display:'flex', width:'100%', position: 'relative', alignItems:'center', height:'4rem'}}>
         {logo}
-      <Box sx={{flexGrow: 1 , display:'flex', borderBottom: '1px solid #eaeaea', width:'100%', justifyContent:{xs:'right', md:'center'}, position: 'absolute'}}>
-        <Link href="/docs">
+      <Box className={styles.NavButton} sx={{flexGrow: 1 , display:'flex', borderBottom: '1px solid #eaeaea', width:'100%', justifyContent:{xs:'right', md:'center'}, position: 'absolute'}}>
+        <a href="https://docs.ergonation.org/" target="_blank" rel="noopener noreferrer">
           <Button
               key="Documentation"
               sx={{
@@ -39,7 +39,7 @@ function AppBar({isHome}) {
             >
               Docs
           </Button>
-        </Link>
+        </a>
         <Link href="/id-list">
           <Button
               key="ΣID List"
