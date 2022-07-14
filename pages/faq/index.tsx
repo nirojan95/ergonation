@@ -20,13 +20,13 @@ export default function Home() {
 
       <main className={styles.main}>
         <AppBar isHome={false}/>
-        <Box sx={{display:{ xs: 'none', md: 'flex' }}}>
+        <Box>
           <h2 className={styles.title}>
             Frequently Asked Questions
           </h2>
         </Box>
         <p className={styles.description}>
-          For more in depth information check out the DOCS{' '}
+          For more in-depth information check out the DOCS{' '}
         </p>
         <Box sx={{width:{ xs: 300, md: 650 }, mt:3}}>
           <Accordian/>

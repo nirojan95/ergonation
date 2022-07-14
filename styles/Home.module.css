@@ -53,13 +53,8 @@
   text-decoration: none;
 }
 
-.title a:hover,
-.title a:focus,
-.title a:active,
-.titleSmall a:hover,
-.titleSmall a:focus,
-.titleSmall a:active{
-  text-decoration: underline;
+.NavButton a{
+  text-decoration: none;
 }
 
 .title {
