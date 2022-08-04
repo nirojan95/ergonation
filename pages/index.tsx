@@ -54,7 +54,7 @@ export default function Home() {
           <h3>Verify ID </h3>
             <div className ={styles.listItems}>
               <ListItem sx={{ display: 'list-item' }}>
-                Join the next monthly ΣID verification event on July 11th 2022 at 13.00 UTC for instructions. The event itself will start 13.10 UTC, and end 13.30 UTC.
+                Join the next monthly ΣID verification event on August 15th 2022 at 20.00 UTC for instructions. The event itself will start 20.10 UTC, and end 20.30 UTC.
               </ListItem>
               <ListItem sx={{ display: 'list-item' }}>
                 Participants will play a short game. If successful, they will be able to verify the ID on-chain.
