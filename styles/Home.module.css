@@ -161,3 +161,24 @@
 .downloadButton a {
   text-decoration: none;
 }
+
+.quizContainer{
+  border: 1px solid #eaeaea;
+}
+
+.quizQuestionBox{
+  display: flex;
+  margin: 1rem;
+}
+
+.quizQuestion{
+  width: 94%;
+}
+
+.quizTimer{
+  justify-content: right;
+}
+
+.quizOptions{
+  margin: 1rem;
+}
