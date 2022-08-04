@@ -6,7 +6,7 @@ import Footer from '../Footer'
 import ListItem from '@mui/material/ListItem';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
-import Quiz from './Quiz'
+// import Quiz from './Quiz'
 
 
 export default function Home() {
