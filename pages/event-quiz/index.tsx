@@ -29,7 +29,7 @@ export default function Home() {
           Good Luck Participating in this Event{' '}
         </p>
         <Box sx={{width:{ xs: 300, md: 650 }, mt:3}}>
-          <Quiz/>
+          {/*<Quiz/>*/}
         </Box>
       </main>
       <Footer/>
