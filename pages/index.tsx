@@ -21,6 +21,9 @@ export default function Home() {
         <div className={styles.ergonationlogo}>
           <Image src="/ergonation.svg" className ={styles.filtergreen} alt="Ergonation Logo" width={1000} height={400}/>
         </div>
+        <p className={styles.descriptionItalics}>
+          Mixer Notification: We encourage everyone mix their funds on the 1st of every month, so there are greater numbers of boxes to mix with, increasing anonymity. {' '}
+        </p>
         <Box sx={{display:{ xs: 'none', md: 'flex' }}}>
           <h2 className={styles.title}>
             Proof of <a>Humanity</a>
