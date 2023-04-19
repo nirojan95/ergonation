@@ -81,6 +81,13 @@
   font-size: 1rem;
 }
 
+.descriptionItalics{
+  margin: 0 0 1rem 0;
+  line-height: 1;
+  font-size: 1rem;
+  font-style: italic;
+}
+
 .code {
   background: #fafafa;
   border-radius: 5px;
